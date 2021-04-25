@@ -766,6 +766,9 @@ HEAD .round-2 {
   .hr {
     display: none;
   }
+  .img-fluid {
+    margin-bottom: 70px;
+  }
   .nav-item:hover hr:nth-child(2) {
     display: none;
   }
@@ -787,6 +790,7 @@ HEAD .round-2 {
   .about p {
     font-size: 20px;
   }
+  
   .hr {
     display: none;
   }
