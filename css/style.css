@@ -340,7 +340,17 @@ hr {
   margin-top: 50px;
   text-align: center;
 }
-
+.about .img-fluid{
+  animation: imgAnim 1.4s infinite alternate-reverse;
+}
+@keyframes imgAnim{
+  from{
+      transform: translate(40px,20px);
+  }
+  to{
+      transform: translate(40px,70px);
+  }
+}
 /******about end ******** */
 
 /********Section-Sharpen your skills starts*********/
